@@ -2,7 +2,7 @@
   "name": "api-teste",
   "version": "1.0.0",
   "description": "API simples para cadastro de usuários",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
