@@ -72,11 +72,13 @@ app.get("/usuarios", (req, res) => {
   res.json(usuarios);
 });
 
+app.get("/health", (req, res) => {
+  res.send("API está rodando 🚀");
+});
+
 // Inicia servidor
 app.listen(3000, () => {
   console.log("API rodando em http://localhost:3000");
 });
 
-app.get("/health", (req, res) => {
-  res.send("API está rodando 🚀");
-});
+
